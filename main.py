@@ -1,3 +1,4 @@
+import pytest
 import requests
 
 
@@ -22,4 +23,5 @@ def test_weather_result():
 
 if __name__ == '__main__':
     test_baidu_result()
-    test_weather_result()
+    # test_weather_result()
+    pytest.main(['-s', 'main.py'])
