@@ -11,7 +11,7 @@ class TestRequestsDemo:
     def test_get_posts(self):
         r = self.session.post(self.url)
         # 断言状态码
-        assert r.status_code == 200
+        assert r.status_code == 200 
         # 断言响应头信息
         assert r.headers['Content-Type'] == "text/html"
 

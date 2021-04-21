@@ -1,0 +1,8 @@
+host: https://postman-echo.com
+
+get_time:
+  name: 获取当前时间
+  method: Get
+  url: /time/now/
+  data:
+  headers:
